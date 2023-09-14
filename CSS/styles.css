@@ -1,0 +1,66 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+article{
+    width: 180px;
+    height: 180px;
+}
+
+.dice{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    border: 3px solid black;
+}
+.dots-6{
+    grid-template-areas:
+    ". . . . ."
+    ". one . two ."
+    ". three . four ."
+    ". five . six ." ;
+}
+
+.dots-2{
+    grid-template-areas:
+    ". . . . ."
+    ". one . two ."
+    ". three . four ."
+    ". five . six ." ;
+
+.one{
+    grid-area: one;   
+    background-color: black;
+    border-radius: 50%;
+}
+.two{
+    grid-area: two;   
+    background-color: black;
+    border-radius: 50%;
+   }
+
+   .three{
+    grid-area: three;   
+    background-color: black;
+    border-radius: 50%;
+   }
+
+   .four{
+    grid-area: four;   
+    background-color: black;
+    border-radius: 50%;
+   }
+
+   .five{
+    grid-area: five;   
+    background-color: black;
+    border-radius: 50%;
+   }
+
+   .six{
+    grid-area: six;   
+    background-color: black;
+    border-radius: 50%;
+   }
